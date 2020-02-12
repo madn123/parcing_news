@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/test-cases/document-types" />
+      <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/jQueryServer/demo" />
+      <path value="$PROJECT_DIR$/vendor/api-reference/media" />
+      <path value="$PROJECT_DIR$/vendor/api-reference/phpQuery" />
+      <path value="$PROJECT_DIR$/vendor/phpQuery/phpQuery" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+</project>
