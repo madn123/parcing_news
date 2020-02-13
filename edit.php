@@ -1,5 +1,5 @@
 <?php
-require_once('include/config.php');
+require_once('include/include.php');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     $id = $_REQUEST['id'];

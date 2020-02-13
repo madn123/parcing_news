@@ -1,5 +1,5 @@
 <?php
-require_once('include/config.php');
+require_once('include/include.php');
 
 $news_sources = get_sources();
 $articles = [];
