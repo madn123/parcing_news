@@ -1,7 +1,10 @@
 <?php
 require_once('include/include.php');
 
-$id = $_REQUEST['id'];
+$id = isset($_REQUEST['id']) ? intval($_REQUEST['id']) : 0;
+if (empty($id)){
+    header("Location: /");
+}
 
 $art = R::getAll('
         SELECT articles.*,sources.name FROM articles
