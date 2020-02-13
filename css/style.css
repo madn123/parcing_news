@@ -26,3 +26,11 @@ header{
 .checked{
     text-align: right;
 }
+
+.art_buttons form{
+    display: block;
+}
+
+.form-inline{
+   display: contents !important;
+}
